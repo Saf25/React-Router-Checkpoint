@@ -216,7 +216,7 @@
   justify-content: end;
   font-style: italic;
 }
-p {
+.p {
   padding-bottom: 0px;
   text-align: center;
   padding-right: 300px;
@@ -230,4 +230,9 @@ p {
 .color {
   background-color: red;
   color: blue;
+}
+.style {
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
 }

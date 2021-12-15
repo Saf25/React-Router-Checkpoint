@@ -3,6 +3,7 @@ import { Button, Navbar, Container } from "react-bootstrap";
 import ReactPlayer from "react-player";
 import { useParams } from "react-router";
 import { getMovie } from "../Home";
+import { AddMovie } from "./AddMovie";
 
 export default function Description() {
   let params = useParams();
@@ -20,7 +21,7 @@ export default function Description() {
             <h3 className="gold">{movie.movieName}</h3>
           </Container>
         </Navbar>
-        <p>
+        <p className="p">
           {" "}
           <span className="span">Movie description:</span> {movie.description}
         </p>
